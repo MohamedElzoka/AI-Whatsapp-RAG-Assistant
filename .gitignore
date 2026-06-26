@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+backend/uploads/*
+backend/logs/*
+!backend/uploads/.gitkeep
+!backend/logs/.gitkeep
+nginx/certs/*.crt
+nginx/certs/*.key
+.idea/
+.vscode/
